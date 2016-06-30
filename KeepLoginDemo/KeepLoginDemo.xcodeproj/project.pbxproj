@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F58910B21D22CAA300BC4220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58910B11D22CAA300BC4220 /* AppDelegate.swift */; };
+		F58910B41D22CAA300BC4220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58910B31D22CAA300BC4220 /* ViewController.swift */; };
+		F58910B71D22CAA300BC4220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58910B51D22CAA300BC4220 /* Main.storyboard */; };
+		F58910B91D22CAA300BC4220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58910B81D22CAA300BC4220 /* Assets.xcassets */; };
+		F58910BC1D22CAA300BC4220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58910BA1D22CAA300BC4220 /* LaunchScreen.storyboard */; };
+		F58910C41D22CB3600BC4220 /* keep.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F58910C31D22CB3600BC4220 /* keep.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F58910AE1D22CAA300BC4220 /* KeepLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeepLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58910B11D22CAA300BC4220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F58910B31D22CAA300BC4220 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F58910B61D22CAA300BC4220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F58910B81D22CAA300BC4220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F58910BB1D22CAA300BC4220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F58910BD1D22CAA300BC4220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F58910C31D22CB3600BC4220 /* keep.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = keep.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F58910AB1D22CAA300BC4220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F58910A51D22CAA300BC4220 = {
+			isa = PBXGroup;
+			children = (
+				F58910C31D22CB3600BC4220 /* keep.mp4 */,
+				F58910B01D22CAA300BC4220 /* KeepLoginDemo */,
+				F58910AF1D22CAA300BC4220 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F58910AF1D22CAA300BC4220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F58910AE1D22CAA300BC4220 /* KeepLoginDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F58910B01D22CAA300BC4220 /* KeepLoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F58910B11D22CAA300BC4220 /* AppDelegate.swift */,
+				F58910B31D22CAA300BC4220 /* ViewController.swift */,
+				F58910B51D22CAA300BC4220 /* Main.storyboard */,
+				F58910B81D22CAA300BC4220 /* Assets.xcassets */,
+				F58910BA1D22CAA300BC4220 /* LaunchScreen.storyboard */,
+				F58910BD1D22CAA300BC4220 /* Info.plist */,
+			);
+			path = KeepLoginDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F58910AD1D22CAA300BC4220 /* KeepLoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58910C01D22CAA300BC4220 /* Build configuration list for PBXNativeTarget "KeepLoginDemo" */;
+			buildPhases = (
+				F58910AA1D22CAA300BC4220 /* Sources */,
+				F58910AB1D22CAA300BC4220 /* Frameworks */,
+				F58910AC1D22CAA300BC4220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeepLoginDemo;
+			productName = KeepLoginDemo;
+			productReference = F58910AE1D22CAA300BC4220 /* KeepLoginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F58910A61D22CAA300BC4220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = RamboLu;
+				TargetAttributes = {
+					F58910AD1D22CAA300BC4220 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2AS8FW5X2H;
+					};
+				};
+			};
+			buildConfigurationList = F58910A91D22CAA300BC4220 /* Build configuration list for PBXProject "KeepLoginDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F58910A51D22CAA300BC4220;
+			productRefGroup = F58910AF1D22CAA300BC4220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F58910AD1D22CAA300BC4220 /* KeepLoginDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F58910AC1D22CAA300BC4220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58910C41D22CB3600BC4220 /* keep.mp4 in Resources */,
+				F58910BC1D22CAA300BC4220 /* LaunchScreen.storyboard in Resources */,
+				F58910B91D22CAA300BC4220 /* Assets.xcassets in Resources */,
+				F58910B71D22CAA300BC4220 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F58910AA1D22CAA300BC4220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58910B41D22CAA300BC4220 /* ViewController.swift in Sources */,
+				F58910B21D22CAA300BC4220 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F58910B51D22CAA300BC4220 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58910B61D22CAA300BC4220 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F58910BA1D22CAA300BC4220 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58910BB1D22CAA300BC4220 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F58910BE1D22CAA300BC4220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F58910BF1D22CAA300BC4220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F58910C11D22CAA300BC4220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeepLoginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RamboLu.KeepLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F58910C21D22CAA300BC4220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeepLoginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RamboLu.KeepLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F58910A91D22CAA300BC4220 /* Build configuration list for PBXProject "KeepLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58910BE1D22CAA300BC4220 /* Debug */,
+				F58910BF1D22CAA300BC4220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58910C01D22CAA300BC4220 /* Build configuration list for PBXNativeTarget "KeepLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58910C11D22CAA300BC4220 /* Debug */,
+				F58910C21D22CAA300BC4220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F58910A61D22CAA300BC4220 /* Project object */;
+}
